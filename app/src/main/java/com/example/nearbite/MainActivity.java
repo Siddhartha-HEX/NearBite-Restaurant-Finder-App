@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private void getNearbyRestaurants(double lat, double lng) {
 
-        String apiKey = "AIzaSyAz-MLbKbOO_dv7-jYSMquTsr5euTcUSzU";
+        String apiKey = "YOUR_API_KEY";
 
         String url =
                 "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
